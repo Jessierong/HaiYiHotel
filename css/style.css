@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+/* main color 967748*/
+html, body { font-size: 0.8em; background: #eaeaea; font-family: Arial, "微软雅黑" }
+h1 { font-size: 32px; }
+h2 { font-size: 26px; }
+h3 { font-size: 16px }
+h4 { font-size: 14px }
+a { color: #967748; }
+/**common**/
+.wrap { width: 980px; margin: 0 auto; position: relative }
+.btn-active { display: inline-block; background: #967748; color: #fff; padding: 6px 20px; font-size: 14px; }
+.btn-active.black { background: #222 }
+.icon-diamond { color: #967748; margin-right: 10px; }
+.header { background: #fff; font-size: 16px }
+.logo-HaiYi { padding: 10px; display: block; }
+.menu { color: #ccc; margin: 50px 0 0 20px; }
+.menu a { color: #967748; font-weight: 700; display: inline-block; margin: 0 10px; border-bottom: 2px solid #fff }
+.menu a:hover { border-bottom: 2px solid #967748 }
+.language { padding: 6px; font-size: 12px; position: absolute; top: 0; right: 0 }
+.booking { padding: 10px; color: #fff; background: url(../images/body-bg.png); }
+.booking h2 { padding-top: 6px; font-size: 16px; margin: 0 }
+.booking ul { margin-right: 4px; }
+.booking li { float: left; margin: 0 4px; padding: 4px; background: #fff; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -o-border-radius: 2px }
+.booking li * { vertical-align: middle; border: none; font-size: 14px; color: #333; background: none }
+#startDay, #endDay { width: 90px; }
+.btn-booking { background: #222; color: #fff; border: none; padding: 6px 30px; font-size: 14px; }
+.main { background: #fff; padding: 20px 0; font-size: 16px }
+.breadnav { font-family: Arial, "宋体"; font-size: 14px; border-bottom: 1px solid #ddd; padding-bottom: 10px; margin-bottom: 10px; }
+.breadnav a { color: #967748 }
+.noline { border: none }
+.main h1 { margin-bottom: 20px; font-weight: 100 }
+.main h2 { margin-bottom: 10px; font-weight: 100 }
+.main p, .main li { color: #444; line-height: 1.68; margin-bottom: 16px; }
+.footer-t, .footer { font-family: arial, "宋体"; }
+.footer-t a, .footer a { color: #000 }
+.footer-t { background: #D6D6D6; padding:8px 0; font-size: 12px; }
+.footer-t li { display: block; margin: 0 20px 0 0 }
+.footer { margin: 14px 0; color: #8E8E8E; font-size: 14px;  text-align: center }
+.footer p { margin-bottom: 10px }
+/**baidu map**/
+.iw_poi_title { color: #CC5522; font-size: 14px; font-weight: bold; overflow: hidden; padding-right: 13px; white-space: nowrap }
+.iw_poi_content { font: 12px arial, sans-serif; overflow: visible; padding-top: 4px; white-space: -moz-pre-wrap; word-wrap: break-word }
+#dituContent { width: 640px; height: 450px; border: #ccc solid 1px; }
+/**/
+.roomlist li { float: left; text-align: center; margin: 0 40px 20px 0; color: #967748; }
+.roomlist img { display: block; border: 1px solid #ccc; padding: 6px; margin-bottom: 6px }
+.roomlist span { display: block; margin-bottom: 6px }
+.dininglist li { float: left; text-align: center; margin: 0 40px 20px 0; color: #967748; }
+.dininglist img { border: 1px solid #ccc; padding: 6px; margin-bottom: 6px }
+.dininglist span { display: block }
+.sportlist li { float: left; text-align: center; margin: 0 20px 10px 0; color: #967748; }
+.sportlist img { border: 1px solid #ccc; padding: 6px; margin-bottom: 6px }
+.sportlist span { display: block }
+/*booking*/
+.bookflow { font-size: 16px; }
+.bookflow a, .bookflow span { margin: 0 10px }
+.bookflow a { color: #fff; }
+.bookflow span { color: #ebe4d0; }
+.bookleft { float: left; margin: 0 20px 0 0; width: 260px; }
+.leftbox { background: #FAF7ED; margin: 0 0 20px; padding: 10px 0 16px; border: 1px solid #E0C9A6 }
+.leftbox .title { margin: 0 20px 10px; padding: 4px 0 6px; color: #967748; border-bottom: 1px solid #967748 }
+.leftbox .inner { padding: 0 20px; }
+.leftbox li { margin-bottom: 10px }
+.leftbox li:last-child { margin-bottom: 0 }
+.basicinfo label { margin-right: 6px; display: inline-block; width: 70px; }
+.leftbox input, .leftbox select { margin-right: 4px; padding: 2px; max-width: 134px; }
+.tips { font-size: 12px; }
+p.priceamount { font-size: 14px; margin-bottom: 0; text-align: center }
+#amount { margin-left: 6px }
+#slider-range { margin: 0 10px }
+.roomtype { margin-top: 10px; }
+.roomtype li { font-size: 14px; margin-bottom: 4px; }
+.bookright { float: left; width: 700px; }
+.bookright>.title { font-size: 20px; margin-bottom: 10px; font-weight: 100 }
+.products { background: #FAF7ED; border: 1px solid #E0C9A6; border-bottom: none; margin-top: -1px }
+.product-t, .product-s { padding: 10px; border-bottom: 1px solid #E0C9A6; }
+.product-t h2 { margin-bottom: 10px; font-weight: 100 }
+.product-t p { font-size: 14px; margin-bottom: 4px }
+.per-price { text-align: right; font-size: 14px; }
+.per-price b { font-size: 18px; }
+.per-price span { display: block; font-size: 12px; }
+.product-s { background: #fff }
+.product-s .title { font-size: 22px; font-weight: 100; padding: 6px 0 }
+.product-s .detail { width: 500px; }
+.room-thumb { border: 1px solid #ccc; padding: 6px; width: 200px; margin-right: 10px; }
+.detail-text { width: 270px; }

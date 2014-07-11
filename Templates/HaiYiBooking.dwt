@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>汕头君华海逸酒店 | 中国汕头酒店 | 中国5星级酒店</title>
+<!-- TemplateEndEditable -->
+<!--Css-->
+<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="../libs/jquery-ui-1.11.0/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" href="../libs/jquery-ui-1.11.0/jquery-ui.theme.min.css"/>
+<link rel="stylesheet" type="text/css" href="../libs/flexslider/jquery.flexslider-min.css"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<!--Js libs-->
+<script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+<script type="text/javascript" src="../libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="../libs/jquery-ui-1.11.0/jquery-ui.js"></script>
+<script type="text/javascript" src="../libs/jquery-ui-1.11.0/jquery.ui.datepicker-zh-CN.js"></script>
+<script type="text/javascript" src="../libs/flexslider/jquery.flexslider-min.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<div class="header">
+	<div class="wrap clearfix">
+		<a class="logo-HaiYi f_left" href="#">
+		<img src="images/logo_haiyi.png" width="200" height="100" />
+		</a>
+		<p class="menu f_left clearfix"><a href="index.html">主页</a> / <a href="aboutus.html">关于海逸</a> / <a href="rooms.html">客房与套房</a> /<!-- <a href="dining.html">餐饮服务</a> /--> <a href="sports.html">健身娱乐</a> / <a href="offers.html">特别优惠</a> / <a href="#">会员登录</a> </p>
+		<div class="language">
+			<select name="speed" id="language">
+				<option>选择语言</option>
+				<option>简体中文</option>
+				<option>English</option>
+			</select>
+		</div>
+	</div>
+</div>
+<div class="booking">
+	<div class="wrap clearfix bookflow">
+	<!-- TemplateBeginEditable name="bookflow" -->
+		预定流程: <a href="#">选择日期</a> > <a href="#">房间和价格</a> > <a href="#">选择套餐</a> > <a href="#">结帐</a> > <a href="#">查看</a> > <a href="#">确认</a>
+	<!-- TemplateEndEditable -->
+	</div>
+</div>
+<div class="main">
+	<!-- TemplateBeginEditable name="main" -->
+	<div class="wrap breadnav">
+		<a href="index.html">主页</a> > 预定
+	</div>
+	<div class="wrap clearfix">
+		<h2>汕头君华海逸酒店</h2>
+		<h3>基本信息</h3>
+	</div>
+	<!-- TemplateEndEditable -->
+</div>
+<div class="footer-t">
+	<ul class="clearfix wrap">
+		<li class="f_left"><a href="contactus.html">联系我们</a></li>
+		<li class="f_left"><a href="http://www.meritushotels.com/privacy-policy-zh.html">网站地图</a></li>
+		<li class="f_right"><a href="http://www.meritushotels.com/terms-zh.html">条款与条件</a></li>
+		<li class="f_right"><a href="http://www.meritushotels.com/privacy-policy-zh.html">隐私策略</a></li>
+	</ul>
+</div>
+<div class="footer">
+	<p class="wrap">汕头市海滨路53号 / No. 53 Haibin Road, Shantou <span class="label">电话：</span> +86 754 88367001 电邮：<a href="mailto:info@haiyi-hotel.com" target="_blank">info@haiyi-hotel.com</a></p>
+	<p class="wrap">Copyright © 2014 <span class="pc-only">Next Generation Technologies</span><span class="mobile-only">NGT</span>. All rights reserved</p>
+</div>
+<!-- TemplateBeginEditable name="footjs" -->
+<script>
+$(function() {
+	$('#startDay, #endDay').datepicker({
+		showOn: "button",
+		buttonImage: "images/calendar.png",
+		buttonImageOnly: true
+	 });
+	$( "#language" ).selectmenu({
+		width:100	 
+	});
+});
+</script>
+<!-- TemplateEndEditable -->
+</body>
+</html>
